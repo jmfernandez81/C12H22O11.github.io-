@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>C12H22O11 — Falansterio Fantasma</title>
+  <style>
+    body {
+      background: #0047AB;
+      color: #F5F5F0;
+      font-family: Georgia, serif;
+      text-align: center;
+      padding: 40px 20px;
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .contenedor {
+      max-width: 800px;
+      width: 100%;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 1.5em;
+      font-weight: normal;
+      letter-spacing: 2px;
+      margin-bottom: 40px;
+    }
+    iframe {
+      width: 100%;
+      height: 500px;
+      border: none;
+      margin-bottom: 30px;
+      background: #F5F5F0;
+    }
+    audio {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    a {
+      color: #F5F5F0;
+      text-decoration: none;
+      border-bottom: 1px solid #F5F5F0;
+      padding-bottom: 2px;
+    }
+    a:hover {
+      opacity: 0.7;
+    }
+    p {
+      font-size: 0.9em;
+      opacity: 0.7;
+      margin-top: 40px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    <h1>C12H22O11 — Falansterio Fantasma</h1>
+    
+    <!-- Visor del PDF embebido -->
+    <iframe src="pdf/libro.pdf"></iframe>
+    
+    <!-- Reproductor de audio -->
+    <audio controls>
+      <source src="audio/lectura.mp3" type="audio/mpeg">
+      Tu navegador no soporta el elemento de audio.
+    </audio>
+    
+    <!-- Enlace de descarga del PDF -->
+    <p><a href="pdf/libro.pdf" download>Descargar el libro</a></p>
+    
+    <p>El código QR remite a la copia digital del libro y al audio de lectura.</p>
+  </div>
+</body>
+</html>
